@@ -1,0 +1,18 @@
+body {
+	background:URL("music.JPG") no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     color:white;
+ }
+ section {
+ 	margin:auto;
+ 	margin-top:10%;
+ 	margin-left:20%;
+ 	font-family: 'Quintessential', cursive;
+ }
+#social_website{
+	margin-left: 32%;
+	
+}

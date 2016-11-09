@@ -1,0 +1,19 @@
+body {
+	background-color: #0021A5;
+	color:white;
+}
+p {
+font-size:16px;
+}
+section {
+	margin-top:2%;
+	margin-left: 5%;
+	text-align: left;
+	width:62%;
+}
+#profile_pic {
+	padding-top:4%;
+	padding-right: 5%;
+	height: 580px;
+	width:400px;
+}

@@ -1,0 +1,9 @@
+body {
+	background-color: #1E8BC3;
+	color:white;
+}
+textarea {
+	display:block;
+	width:200px;
+	height:100px;
+}
