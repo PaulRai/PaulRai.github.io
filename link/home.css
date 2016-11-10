@@ -5,14 +5,15 @@ body {
      -o-background-size: cover;
      background-size: cover;
      color:white;
- }
- section {
+}
+
+section{
  	margin:auto;
  	margin-top:10%;
  	margin-left:20%;
  	font-family: 'Quintessential', cursive;
- }
+}
+
 #social_website{
 	margin-left: 32%;
-	
 }
