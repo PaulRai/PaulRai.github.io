@@ -3,17 +3,26 @@ body {
 	color:white;
 }
 p {
-font-size:16px;
+font-size:20px;
 }
 section {
-	margin-top:2%;
+	margin-top:5%;
 	margin-left: 5%;
 	text-align: left;
-	width:62%;
+	width:95%;
+	font-family: 'Cookie', cursive;
+	font-family: 'Italianno', cursive;
+	font-family: 'Cormorant Upright', serif;
+	font-family: 'El Messiri', sans-serif;
+}
+section a {
+	color:#FF1C63;
+	font-style: italic;
+
 }
 #profile_pic {
-	padding-top:4%;
-	padding-right: 5%;
-	height: 580px;
-	width:400px;
+	padding-top:10%;
+	padding-right: 10%;
+	height: 545px;
+	width:380px;
 }

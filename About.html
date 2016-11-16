@@ -2,13 +2,16 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="link/animate.css">
+		<!-- include javascript code -->
 		<script src="link/jquery-3.1.1.min.js"></script>
+		<script src="link/wow.js"></script>
 		<script src="link/bootstrap.js"></script>
 		<link rel="stylesheet" href="link/bootstrap.css">
 		<link rel="stylesheet" href="link/main.css">
 		<link rel="stylesheet" href="link/about.css">
 		<link rel="icon" type="image/png" href="link/profile.png">
-		<link href="https://fonts.googleapis.com/css?family=Sancreek" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cookie|Cormorant+Upright|El+Messiri|Italianno" rel="stylesheet">
 		
 		<title>
 			About Me
@@ -51,16 +54,23 @@
 	</header>
 	
 <div class="page">
-<img id="profile_pic" src="link/photo.jpg" alt="Paul Rai" align="right">
-<section>
-<p><font color="gold" size="5"><b>Paul Rai</b></font><font size="3"> (Born on March 26, 1994 A.D)</font><pr>
-<p>Hi, I'm Paul Rai from Sankhuwasava, Nepal.<br>
-My dream is to be a good worship leader in Church</Pr>
-<p>I do service on PRATIGYA INDEPENDENT CHURCH as youth leader<br>
-However being a Christian I play guitar on my church</pr>
+	<div class="row">
+		<!-- Column that holds the text -->
+		<div class="col-md-8 wow slideInLeft">
+			<section>
+		<p><font color="gold" size="5"><b>Paul Rai</b></font><font size="4"> (Born on March 26, 1994 A.D)</font><pr>
+			<p>Hi, I am Paul Kulung Rai from Sankhuwasava, Nepal. I did my schooling from <a href="https://www.ssbs.edu.np"> Surya Secondary Boarding school</a> and had a privileged to be a computer teacher of same school. I'm also doing my bachelor on Arts at Tribhuwan University. I'm a Christian and I do service at <a href="https://www.facebook.com/PratigyaIndependentChurch/">Pratigya Independent Church</a>.</pr>
+			<p>I am very much passionate and dedicated with Music. And I live with a amount of perservance to achieve my goal. I love to play different instrument, among them guitar is my favourite. I usually play guitar at my church and give some classes as well.</p>
+			<p>Guitar first appered in my life when I was studying in grade two, my dad tought me all about relative cords and I was able to play guitar on some songs and hymns at my little age. I boost my theoretical knowledge from <a href="https://www.facebook.com/NepalKoreaInternationalCollegeNkic/">Nepal Korea internation college</a>; where I learned Violin and Piano as well for about two years. My favourite guitarist are <a href="https://www.vai.com">Steve Vai,</a><a href="https://www.sunghajung.com"> Sungha Jung,</a><a href="https://www.satriani.com"> Joe Satriani,</a><a href="https://www.jimgreeninger.com"> Jim Greeninger,</a><a href="https://www.yngwiemalmsteen.com"> Yngwie Malmsteen,</a><a href="https://www.ericclapton.com"> Eric Clapton,</a><a href="https://www.angelo.com"> Michael Angelo Batio</a>.</p>
+		</section>
+		</div>
 
-</section>
+		<!-- Column that holds the picture, md-4 means it's 4/12 width -->
+		<div class="col-md-4" >
+		<img id="profile_pic" class="wow slideInRight" src="link/photo.jpg" alt="Paul Rai" align="right">
+		</div>
 	</div>
+</div>
 
 <footer>
 		<div class="inner">
@@ -70,3 +80,9 @@ However being a Christian I play guitar on my church</pr>
 </body>
 </div>
 </html>
+
+<!-- necessary javascropt code -->
+ <script>
+          new WOW().init();
+          //$('.dropdown-toggle').dropdown()
+          </script>
