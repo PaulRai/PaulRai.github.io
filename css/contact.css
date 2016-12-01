@@ -1,0 +1,30 @@
+body {
+	background-color:#0075C1;
+	color:white;
+}
+#info {
+	padding-left:5%;
+	padding-top:10%;
+	font-size: 15px;
+	
+}
+#contact_me {
+	text-align: center;
+	color:#BD0E1D;
+	font-size: 40px;
+	font-family: 'Niconne', cursive;
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-family: 'Eagle Lake', cursive;
+	font-weight: bold;
+}
+#contact {
+	font-family: 'Sofia', cursive;
+font-family: 'Merienda One', cursive;
+font-family: 'Rancho', cursive;
+font-family: 'Quintessential', cursive;
+}
+.page a:hover, a:active{
+	color:orange !important; 
+	text-decoration: none;
+	
+}

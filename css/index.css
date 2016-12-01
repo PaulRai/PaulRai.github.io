@@ -1,0 +1,20 @@
+body {
+	background:URL("../image/index.jpg") no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     color:white;
+}
+
+section{
+ 	margin:auto;
+ 	margin-top:10%;
+ 	margin-left:20%;
+ 	font-family: 'Quintessential', cursive;
+ 	text-shadow: 3px 3px orange;
+}
+
+#social_website{
+	margin-left: 32%;
+}

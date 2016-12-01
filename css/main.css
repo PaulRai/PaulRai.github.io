@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+    height:100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    height:100%;
+    margin:0;
+}
+.page {
+    padding:40px 0;
+    height:100%;
+    margin: 0 auto;
+}
+header, footer {
+    height:40px !important;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000; 
+}
+
+footer {
+    bottom:0;
+    width: 100%;
+    background-color:rgba(19,93,165,0);
+}
+.inner {
+    margin:0 auto;
+    height: 100%;
+    line-height:40px;
+}
+
+.navbar-default {
+    border:none;
+    height:45px !important;
+}
+.navbar-nav li {
+     border-left:1px solid #1B83D6;
+}
+
+.navbar-nav li a {
+    color:white !important;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Amita', cursive;
+    font-family: 'Felipa', cursive;
+    font-family: 'Jim Nightshade', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size:35px;
+     padding-top:15px;
+}
+.navbar-nav .active a {
+    color:yellow !important; 
+    background-color:none !important;
+}
+.navbar-nav li a:hover {
+    color:#FF1C63 !important;
+    background-color: #111111 !important;
+}
+
+
+/* This keeps the video dropdown green when clicked */
+.navbar-nav .open a {
+    color:#FF1C63 !important;
+    background-color: #111111!important;
+}
+
+.dropdown-menu {
+    background-color:rgba(17,17,17,.8);
+    left:0px !important;
+    right: auto !important;
+    min-width:200px;
+    min-height:40px !important;
+    padding: 0px 0px !important;
+    z-index: 0 !important; 
+}
+.dropdown-menu > li > a {
+    padding-top: 0px !important; 
+    height:45px !important;
+}
+/* change the navbar to be 40 px tall */
+.navbar-nav > li > a, .navbar-brand {
+    height: 45px;
+}
+.navbar {
+    min-height:45px !important;
+}

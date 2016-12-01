@@ -1,0 +1,27 @@
+body {
+	background-color: #0075C1;
+	color:white;
+}
+p {
+font-size:25px;
+}
+section {
+	margin-top:5%;
+	margin-left: 5%;
+	text-align: left;
+	width:95%;
+	font-family: 'Niconne', cursive;
+	font-family: 'Bilbo Swash Caps', cursive;
+}
+section a {
+	color:rgb(255,215,0);
+}
+section a:hover {
+	color:#A52A2A;
+}
+#profile_pic {
+	padding-top:11%;
+	padding-right: 10%;
+	height: 545px;
+	width:380px;
+}

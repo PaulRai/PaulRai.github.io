@@ -3,14 +3,18 @@
 
 	<head>
 		<meta charset="utf-8">
-		<script src="link/jquery-3.1.1.min.js"></script>
-		<script src="link/bootstrap.js"></script>
-		<link rel="stylesheet" href="link/bootstrap.css">
-		<link rel="stylesheet" href="link/main.css">
-		<link rel="stylesheet" href="link/guitar.css">
-		<link rel="icon" type="image/png" href="link/guitar.jpg">
+		<script src="javascript/jquery-3.1.1.min.js"></script>
+		<script src="javascript/wow.js"></script>		
+		<script src="javascript/bootstrap.js"></script>
+		<script src="javascript/main.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/guitar.css">
+		<link rel="icon" type="image/png" href="image/guitar.jpg">
 		<link href="https://fonts.googleapis.com/css?family=Sancreek" rel="stylesheet">
-		
+		<link href="https://fonts.googleapis.com/css?family=Amita|Felipa|Great+Vibes|Jim+Nightshade|Lovers+Quarrel" rel="stylesheet">
+		<!--My Videos-->
+		<link href="https://fonts.googleapis.com/css?family=Merienda+One|Rancho|Sofia" rel="stylesheet">
 		<title>
 			 Guitar
 		</title>
@@ -20,7 +24,7 @@
 <header>
 		
 		<div class="inner">
-		<nav class="navbar navbar-default"style="background-color:rgba(0,0,0,.5)">
+		<nav class="navbar navbar-default"style="background-color:#142E4F">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -35,12 +39,12 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-left">
-		        <a href="#"><img src="link/paulus.png" height="50px"></a>
+		       <!-- <a href="#"><img src="image/paulus.png" height="50px"></a>-->
 		    </ul>
 		    <ul class="nav navbar-nav navbar-right">
 		        <li><a href="index.html">Home</a></li>
 		        <li><a href="About.html">About Me</a></li>
-		        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Video<span class="caret"></span></a>
+		        <li class="dropdown" class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Video<span class="caret"></span></a>
 		          <ul class="dropdown-menu">
 		        <li><a href="Guitar.html">Guitar</a></li>
 		          </ul>
@@ -51,15 +55,119 @@
 		</div>
 	</header>
 
-<div class="page">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sWH4jPe6e1c" frameborder="0" allowfullscreen></iframe>
-</div>
 
-<footer>
-		<div class="inner">
-		Copyright © 2016 Paul Rai
+
+<div class="page">
+	<h2>Uploading Soon . . . ^_^ !!!</h2>
+</div>
+<!--
+<div class="row" style="text-align:left;  padding-left:30%">
+	<h3>My Videos<h3>
+</div>
+	<div class="row">
+		
+		<div class="col-md-8" style="text-align:center">
+			
+			<div class="row">
+				<div class="col-md-12">
+					
+					<iframe id="videoIFrame" width=" 854" height="480" src="https://www.youtube.com/embed/sWH4jPe6e1c" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
 		</div>
-	</footer>
+
+		<div class="col-md-4 scrollable" style="text-align:left; width:32%">
+				<div class="row videorow">
+					<div class="col-md-6">
+					<a href="#" id="video1"><img src="image/capture.png" style="height:100px; width:150px"></a>
+					</div>
+					<div class="col-md-6">
+						<h5>Hello</h5>
+					</div>
+				</div>
+
+				<div class="row videorow">
+					<div class="col-md-6">
+					<a href="#" id="video2"><img src="image/take1.png" style="height:100px; width:150px"></a>
+					</div>
+					<div class="col-md-6">
+						<h5>Hello</h5>
+					</div>
+				</div>
+
+				<div class="row videorow">
+					<div class="col-md-6">
+					<a href="#" id="video2"><img src="image/take1.png" style="height:100px; width:150px"></a>
+					</div>
+					<div class="col-md-6">
+						<h5>Hello</h5>
+					</div>
+				</div>
+
+				<div class="row videorow">
+					<div class="col-md-6">
+					<a href="#" id="video2"><img src="image/take1.png" style="height:100px; width:150px"></a>
+					</div>
+					<div class="col-md-6">
+						<h5>Hello</h5>
+					</div>
+				</div>
+
+				<div class="row videorow">
+					<div class="col-md-6">
+					<a href="#" id="video2"><img src="image/take1.png" style="height:100px; width:150px"></a>
+					</div>
+					<div class="col-md-6">
+						<h5>Hello</h5>
+					</div>
+				</div>
+
+				<div class="row videorow">
+					<div class="col-md-6">
+					<a href="#" id="video3"><img src="image/treasure.png" style="height:100px; width:150px"></a>
+				 	</div>
+					<div class="col-md-6">
+						<h5>Hello</h5>
+					</div>
+				</div>
+			</div>
+	</div>
+
+-->
+
+	<!-- a final row for the footer -->
+	<div class="row" style="text-align:center">
+		Copyright © 2016 Paul Rai
+	</div>
+</div>
 
 	</body>
 	</html>
+
+
+<script>
+console.log('watup'); 
+$( "#video1" ).click(function() {
+  console.log('image/capture.png selected'); 
+  changeVideoTo("https://www.youtube.com/watch?v=gG8hTEnCFw0")
+});
+$( "#video2" ).click(function() {
+  console.log('video 2 selected'); 
+  changeVideoTo("https://www.youtube.com/embed/J89Vqcs1wt8")
+});
+$( "#video3" ).click(function() {
+  console.log('video 3 selected'); 
+  changeVideoTo("https://www.youtube.com/embed/J89Vqcs1wt8")
+});
+
+var changeVideoTo = function(url)
+{
+	console.log('called with this url: ' + url )
+	url = url.replace("watch?v=", "v/");
+	var $iframe = $('#videoIFrame'); 
+	if ($iframe.length){
+	  	$iframe.attr('src',url); 
+	  	return false; 
+	  }
+}
+</script>
